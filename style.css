@@ -1,0 +1,190 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #E5E5E5;
+}
+    
+/* Fonts and background color end */
+
+/* nav bar section start */
+
+.background_color{
+    background-color: #2D25A0;
+    height: 700px;
+    
+}
+
+.Container {
+    width: 1164px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+.nav_alignment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_alignment ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 600px;
+    font-size: 16px;
+    
+}
+
+.button{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+}
+
+#button_design{
+    background-color: #E02C6D;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#button_design span{
+    margin-left: 5px;
+}
+
+/* nav bar section end */
+
+
+/* Conmebol Copa America 2021 bar section start */
+
+
+.first-sec-elements{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.first-sec{
+    margin-top: 45px;
+}
+.banner_text{
+    color: white;
+    font-size: 50px;
+    width: 40%;
+}
+.banner{
+    width: 50%;
+}
+.banner img{
+    width: 100%;
+}
+
+
+/* Conmebol Copa America 2021 bar section end */
+
+
+/* player card starts */
+
+.all_players{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    margin-bottom: 5%;
+}
+.player{
+    color: #6C6C6C;
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+}
+.player img{
+    width: 100%;
+    border-radius: 7px;
+}
+.player h2{
+   color: #18191F;
+   font-weight: 700;
+   font-size: 28px;
+}
+
+/* player card end */
+
+
+/* All Highlights Copa America 2021 start */
+
+
+.last_sec{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.last_banner{
+    width: 40%;
+}
+.last_banner_text{
+    width: 50%;
+}
+.last_banner_text h2{
+    font-weight: 700;
+    font-size: 50px;
+    color: #0A0826;
+}
+.last_banner_text p{
+    color: #6C6C6C;
+    margin-bottom: 17px;
+}
+.last_banner img{
+    width: 95%;
+    border-radius: 10px;
+}
+
+/* All Highlights Copa America 2021 end */
+
+
+/* footer start */
+
+.footer{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+}
+.fa-brands{
+
+    background-color: #6c6c6c62;
+    border-radius: 50%;
+    padding: 10px;
+    color: #565964;
+    font-size: 15px;
+}
+.footer_sec img{
+    width: 483.87px;
+    height: 110px;
+    
+}
+.footer_sec p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* footer end */
